@@ -1,0 +1,30 @@
+%Plot A
+%Graph for Step Wave
+out=P2A1out;
+t = out.tout;   
+output = out.simout;
+input = out.simout1;
+figure;
+subplot(3,1,1);
+sgtitle('Part 2 - Part A');
+plot(t, output(:,1));
+title('1/s+1');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+subplot(3,1,2);
+plot(t, output(:,2));
+title('1/(s+1)^2');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+subplot(3,1,3);
+plot(t, output(:,3));
+title('1/(s+1)^3');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+grid on;
+figure;
+plot(t, input(:,1));
+title('Input of Part 2');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+grid on;

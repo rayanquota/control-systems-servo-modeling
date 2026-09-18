@@ -1,0 +1,30 @@
+
+%Graph A4
+out = P1A4out;
+t = out.time;   
+figure;
+tfunc1 = out.simout2;
+tfunc2 = out.simout3;
+tfunc3 = out.simout4;
+tfunc4 = out.simout5;
+subplot(4,1,1);
+plot(t, tfunc1);
+title('Simulink Transfer Function 1 - Part A');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+subplot(4,1,2);
+plot(t, tfunc2);
+title('Simulink Transfer Function 2 - Part A');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+subplot(4,1,3);
+plot(t, tfunc3);
+title('Simulink Transfer Function 3 - Part A');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+subplot(4,1,4);
+plot(t, tfunc4);
+title('Simulink Transfer Function 4 - Part A');
+xlabel('Time (Seconds)');
+ylabel('Amplitude');
+grid on;

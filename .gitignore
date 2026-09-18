@@ -1,0 +1,25 @@
+# MATLAB and Simulink generated files
+slprj/
+sccprj/
+codegen/
+*.slxc
+*.autosave
+*.slx.autosave
+*.asv
+*.m~
+
+# Generated binaries and MEX files
+*.mex*
+*.obj
+*.o
+
+# MATLAB crash and session artifacts
+matlab_crash_dump.*
+java.log.*
+octave-workspace
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+

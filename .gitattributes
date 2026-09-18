@@ -1,0 +1,6 @@
+# Treat MATLAB/Simulink models, datasets, and rendered results as binary.
+*.slx binary
+*.mat binary
+*.png binary
+*.pdf binary
+
